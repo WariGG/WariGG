@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 105" width="510" height="105">
+  <defs>
+    <!-- Fingerprint Icon scaled to 21x21 -->
+    <g id="fingerprint" transform="translate(0, -1) scale(0.22)">
+      <g transform="translate(50, 50) scale(4.536) translate(-12, -12)">
+        <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 13.12c0 2.38 0 6.38-1 8.88" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 12a10 10 0 0 1 18-6" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 16h.01" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21.8 16c.2-2 .131-5.354 0-6" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8.65 22c.21-.66.45-1.32.57-2" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9 6.8a6 6 0 0 1 9 5.2v2" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- Mail Check Icon scaled to 21x21 -->
+    <g id="mail-check" transform="translate(0, -1) scale(0.22)">
+      <g transform="translate(50, 50) scale(4.536) translate(-12, -12)">
+        <path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="m16 19 2 2 4-4" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+
+    <!-- Smile Icon scaled to 21x21 -->
+    <g id="smile" transform="translate(0, -1) scale(0.22)">
+      <g transform="translate(50, 50) scale(4.536) translate(-12, -12)">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8 14s1.5 2 4 2 4-2 4-2" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="9" x2="9.01" y1="9" y2="9" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="15" x2="15.01" y1="9" y2="9" fill="none" stroke="#5B2333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </defs>
+
+  <style>
+    .base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; font-size: 13.5px; fill: #e6edf3; }
+    .bold { font-weight: 600; fill: #ffffff; }
+    .wine { font-weight: 600; fill: #5B2333; }
+    .italic { font-style: italic; fill: #e6edf3; }
+  </style>
+
+  <!-- Row 1 -->
+  <g transform="translate(0, 3)">
+    <use href="#fingerprint" x="0" y="0" />
+    <text x="34" y="16" class="base">Hey, I'm <tspan class="wine">Wari</tspan> - Based in <tspan class="bold">Czech Republic</tspan></text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(0, 39)">
+    <use href="#mail-check" x="0" y="0" />
+    <text x="34" y="16" class="base">Looking for a <tspan class="bold">Full-Stack Web</tspan> or <tspan class="bold">FiveM Developer</tspan>? <tspan class="italic">Hit me up!</tspan></text>
+  </g>
+
+  <!-- Row 3 -->
+  <g transform="translate(0, 75)">
+    <use href="#smile" x="0" y="0" />
+    <text x="34" y="16" class="base">Always open to new ideas &amp; happy to help with your custom requests anytime</text>
+  </g>
+</svg>
